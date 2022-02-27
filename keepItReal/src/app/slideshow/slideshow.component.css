@@ -1,0 +1,26 @@
+.slideshow-section{
+    display: flex;
+    justify-content: center;
+}
+
+.pics{
+    width: 1200px;
+    height: 500px;
+}
+
+
+p {
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+}
+#group-caption{
+    color: white;
+    font-style: italic;
+}

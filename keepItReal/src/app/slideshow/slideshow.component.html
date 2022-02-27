@@ -1,0 +1,31 @@
+<section class="slideshow-section">
+    <ngb-carousel *ngIf="images" class="fact-carousel">
+        <ng-template ngbSlide>
+        <div class="pic-container">
+            <img class="pics" src="./assets/images/male-therapy-slideshow.jpg" alt="black men therapy session"/>
+        </div>
+        <div class="carousel-caption">
+            <h3>It's ok to be vulnerable.</h3>
+            <p>"Black kings need therapy too" - Aaron Muller</p>
+        </div>
+        </ng-template>
+        <ng-template ngbSlide>
+        <div class="pic-container">
+            <img class="pics" src="./assets/images/stigma-slideshow.jpg" alt="stigma">
+        </div>
+        </ng-template>
+        <ng-template ngbSlide>
+        <div class="pic-container">
+            <img class="pics"  src="./assets/images/mental-health-facts-slideshow.jpg" alt="mental health facts">
+        </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="pic-container">
+                <img id="group" class="pics"  src="./assets/images/therapists-group-slideshow.jpg" alt="group of black female therapists">
+            </div>
+            <div class="carousel-caption">
+                <h3 id="group-caption">Sometimes it takes seeing a familiar face.</h3>
+            </div>
+            </ng-template>
+    </ngb-carousel>
+</section>
