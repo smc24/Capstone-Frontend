@@ -1,16 +1,16 @@
-
+<header class="nav">
     <ul ngbNav #nav="ngbNav" class="nav-pills">
     <li ngbNavItem>
-      <a ngbNavLink>First</a>
-      <ng-template ngbNavContent>First content</ng-template>
+      <a  ngbNavLink>Home</a>
     </li>
     <li ngbNavItem>
-      <a ngbNavLink>Second</a>
+      <a ngbNavLink>Therapists</a>
       <ng-template ngbNavContent>Second content</ng-template>
     </li>
     <li ngbNavItem>
-        <a ngbNavLink>Second</a>
+        <a ngbNavLink>Posts</a>
         <ng-template ngbNavContent>Second content</ng-template>
     </li>
   </ul>
+</header>
   <div [ngbNavOutlet]="nav"></div>
