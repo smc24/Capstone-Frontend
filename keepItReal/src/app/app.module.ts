@@ -9,6 +9,7 @@ import { CompanyTitleComponent } from './header/company-title/company-title.comp
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { AboutComponent } from './about/about.component';
 import { TherapistPageComponent } from './therapist-page/therapist-page.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TherapistPageComponent } from './therapist-page/therapist-page.componen
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

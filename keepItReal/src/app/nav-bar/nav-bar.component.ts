@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { SlideshowService } from '../service/slideshow.service';
 
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
@@ -8,7 +10,7 @@ import { SlideshowService } from '../service/slideshow.service';
 })
 export class NavBarComponent implements OnInit {
 
-  active = 'top';
+  active = 'HOME';
 
   constructor(private slideShowService: SlideshowService) { }
 
