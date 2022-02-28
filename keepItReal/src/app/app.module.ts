@@ -10,6 +10,8 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
 import { AboutComponent } from './about/about.component';
 import { TherapistPageComponent } from './therapist-page/therapist-page.component';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

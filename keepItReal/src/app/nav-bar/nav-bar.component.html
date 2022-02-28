@@ -1,10 +1,17 @@
 <header class="nav">
     <ul ngbNav #nav="ngbNav" class="nav-pills">
     <li class="tabs" ngbNavItem>
-      <a  ngbNavLink>HOME</a>
+      <a routerLink="/"  ngbNavLink>HOME</a>
+      <ng-template ngbNavContent>
+        <app-slideshow></app-slideshow>
+        <app-about></app-about>
+      </ng-template>
     </li>
     <li class="tabs" ngbNavItem>
-      <a routerLink="/therapists" ngbNavLink>THERAPISTS</a>
+      <a routerLink="/therapists" ngbNavLink="/therapists">THERAPISTS</a>
+      <ng-template ngbNavContent>
+        <app-therapist-page></app-therapist-page>
+      </ng-template>
     </li>
     <li class="tabs" ngbNavItem>
         <a ngbNavLink>POSTS</a>
@@ -13,3 +20,5 @@
   </ul>
 </header>
   <div [ngbNavOutlet]="nav"></div>
+
+<router-outlet></router-outlet>

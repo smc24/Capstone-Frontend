@@ -3,7 +3,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { TherapistPageComponent } from "./therapist-page/therapist-page.component";
 
 const routes: Routes = [
-    { path: 'therapists', component: TherapistPageComponent}
+    { path: 'api/therapists/', component: TherapistPageComponent}
 ]
 
 
