@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { TherapistPageComponent } from './therapist-page/therapist-page.component';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+import { PostsComponent } from './posts/posts.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { AppRoutingModule } from './app-routing.module';
     CompanyTitleComponent,
     SlideshowComponent,
     AboutComponent,
-    TherapistPageComponent
+    TherapistPageComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,

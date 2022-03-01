@@ -6,5 +6,9 @@
 }
 
 h2{
+    display: flex;
+    justify-content: center;
     color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px;
 }

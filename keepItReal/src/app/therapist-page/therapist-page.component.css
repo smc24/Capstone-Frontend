@@ -1,4 +1,4 @@
-#subtitle {
+.subtitle {
     font-size: 3em;
     font-family: 'Shizuru', 'sans serif';
     color: whitesmoke;
@@ -18,7 +18,7 @@ body {
   .our-team {
     padding: 30px 0 40px;
     margin-bottom: 30px;
-    background-color: #f7f5ec;
+    background-color: whitesmoke;
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -38,7 +38,7 @@ body {
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #1369ce;
+    background-color: #cebb13;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -57,7 +57,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #1369ce;
+    background-color: #cebb13;
     position: absolute;
     top: 0;
     left: 0;
@@ -88,7 +88,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #1369ce;
+    background-color: #cebb13;
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -115,4 +115,11 @@ body {
   .our-team .social li a:hover {
     color: #cebb13;
     background-color: #f7f5ec;
+  }
+
+  .therapist-description{
+      display: flex;
+      justify-content: center;;
+      color: whitesmoke;
+      font-family: 'Open Sans', sans-serif;
   }

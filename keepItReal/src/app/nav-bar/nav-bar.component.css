@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     justify-content: center;
-    background-color: #1864ab;
+    background-color: rgba(16, 46, 46, 0.973);
     row-gap: 30%;
 }
 
