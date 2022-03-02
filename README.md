@@ -41,7 +41,15 @@ I was then presented with my next challenge of how I was going to connect my bac
 
 ![jackie-chan-meme](https://user-images.githubusercontent.com/95877715/156406333-27212c89-8f8d-4fd0-a044-94dd1eb70b83.gif)
 
-Since the applicaton is for the use of patients, I decided to hardcode the therapist information and focus on using my backend for the posts page. I was succesful making a get request but not a post request.
+Since the applicaton is for the use of patients, I decided to hardcode the therapist information and focus on using my backend for the posts page. I was succesful making a get request but not a post request. 
+
+## Final Product
+### Homepage
+![Screenshot (7)](https://user-images.githubusercontent.com/95877715/156412071-83470923-f4ed-4c6a-b02c-bde10cc0d2eb.png)
+### Therapist's Page
+![Screenshot (8)](https://user-images.githubusercontent.com/95877715/156412098-0d05c771-8fdd-4122-9fac-5b7917f7bbaf.png)
+### Posts' Page
+![Screenshot (9)](https://user-images.githubusercontent.com/95877715/156412117-1fef2411-1c76-45e5-99e7-d7e4e2e7b1f6.png)
 
 ## Resources
 https://bbbootstrap.com/snippets/bootstrap-comment-section-navbar-26188744
